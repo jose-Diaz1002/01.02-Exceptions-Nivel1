@@ -1,4 +1,9 @@
 01.02-Exception-Nivel1
+statament:
+Create a class called "Product" with the attributes name and price, and another class called "Sale". This class has as attributes a collection of products and the total sale price.
+The "Sale" class has a method called calculateTotal() that throws the custom exception "EmptySaleException" and displays on the screen "To make a sale, you must first add products" if the product collection is empty. If the collection contains products, it should iterate through the collection and store the sum of all product prices in the total sale price attribute.
+The custom exception "EmptySaleException" must inherit from the Exception class. Its constructor should receive the message "To make a sale, you must first add products", and when we catch the exception, we should display it using the exception's getMessage() method.
+Write the necessary code to generate and catch an exception of type "IndexOutOfBoundsException".
 
 Description:
 This project involves creating a Product class and a Sale class to manage a collection of 
