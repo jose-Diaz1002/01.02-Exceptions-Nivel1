@@ -1,0 +1,19 @@
+﻿# Default ignored files
+/shelf/
+/.idea/workspace.xml
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Maven/Gradle
+target/
+build/
+.gradle/
+
+# Archivos temporales
+*.log
+*.tmp
